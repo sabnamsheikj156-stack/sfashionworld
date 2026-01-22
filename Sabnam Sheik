@@ -1,0 +1,119 @@
+<!DOCTYPE html><html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>S Fashion World</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fff5f8;
+      color: #333;
+    }
+    header {
+      background-color: #c2185b;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #f8bbd0;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px;
+    }
+    nav a {
+      text-decoration: none;
+      color: #880e4f;
+      font-weight: bold;
+    }
+    .hero {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .hero h1 {
+      color: #ad1457;
+    }
+    .section {
+      padding: 30px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 10px;
+      padding: 15px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .card img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+    footer {
+      background-color: #c2185b;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+    .contact {
+      line-height: 1.8;
+    }
+  </style>
+</head>
+<body><header>
+  <h1>S Fashion World</h1>
+  <p>Custom Stitching & Latest Women Wear Designs</p>
+</header><nav>
+  <a href="#home">Home</a>
+  <a href="#products">Products</a>
+  <a href="#about">About Us</a>
+  <a href="#contact">Contact</a>
+</nav><section class="hero" id="home">
+  <h1>Welcome to S Fashion World</h1>
+  <p>Kurti, Frock aur sabhi Women Wear – New Designs ke sath</p>
+</section><section class="section" id="products">
+  <h2>Our Collection</h2>
+  <div class="products">
+    <div class="card">
+      <img src="https://via.placeholder.com/300x220" alt="Kurti" />
+      <h3>Designer Kurti</h3>
+      <p>Custom stitching available</p>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/300x220" alt="Frock" />
+      <h3>Stylish Frock</h3>
+      <p>Modern & traditional mix</p>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/300x220" alt="Women Wear" />
+      <h3>Women Wear</h3>
+      <p>As per your size & design</p>
+    </div>
+  </div>
+</section><section class="section" id="about">
+  <h2>About Us</h2>
+  <p>
+    Main ek skilled tailor hoon aur mujhe stitching ka achha experience hai.
+    S Fashion World ke through main latest fabric aur new design ke women wear
+    stitch karke sell karti hoon.
+  </p>
+</section><section class="section contact" id="contact">
+  <h2>Contact Us</h2>
+  <p>📍 Location: Odisha</p>
+  <p>📞 Mobile: +91 XXXXXXXXXX</p>
+  <p>📧 Email: sfashionworld@gmail.com</p>
+  <p>📸 Instagram: @sfashion.world</p>
+</section><footer>
+  <p>© 2026 S Fashion World. All Rights Reserved.</p>
+</footer></body>
+</html>
